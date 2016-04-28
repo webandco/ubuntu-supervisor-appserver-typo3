@@ -50,6 +50,9 @@ webco_typo3:
 ##Warning
 This docker image is not for production and comes with absolulty no warrenty.
 
+##Docker hub repository
+[https://hub.docker.com/r/webandco/ubuntu-supervisor-appserver-typo3/](https://hub.docker.com/r/webandco/ubuntu-supervisor-appserver-typo3/)
+
 ##What's next
 We will improve the image to provide a very solid out of the box solution for typo3 develoment. For that, we need your help and feedback.
 
