@@ -46,6 +46,4 @@ if [ "${APPSERVER_OVERRIDE_REDIS_CONF}" = TRUE ]; then
 fi
 
 echo "start supervisor"
-more /etc/supervisor/conf.d
-/etc/init.d/supervisor stop
-/etc/init.d/supervisor start
+/usr/bin/supervisord
