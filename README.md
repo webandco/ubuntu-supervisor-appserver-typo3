@@ -1,8 +1,8 @@
-Typo3 appserver.io docker image for dev's
+TYPO3 appserver.io docker image for dev's
 =========================================================
 
 ##Summary
-The main goal of this project is to give as many people as possible a simple and powerful access to a typo3 dev environment based on appserver.io. If you need more information regading the [appserver.io](http://appserver.io) project please visit the website.
+The main goal of this project is to give as many people as possible a simple and powerful access to a TYPO3 dev environment based on appserver.io. If you need more information regading the [appserver.io](http://appserver.io) project please visit the website.
 
 Configure the docker-compose.yaml to your needs und you are ready to go.
 
@@ -15,7 +15,7 @@ APPSERVER_VHOST_DOMAIN=xxx.whatever // set a custom domain - docker.vm is always
 ```
 
 ##How does it work
-The appserver will listen on configured port with document root `/var/www/public` for a typo3 setup. Usualy we mount `/var/www` as project root in the volumes configuration.
+The appserver will listen on configured port with document root `/var/www/public` for a TYPO3 setup. Usualy we mount `/var/www` as project root in the volumes configuration.
 
 ##Example configuration
 ```yaml
@@ -54,7 +54,7 @@ This docker image is not for production and comes with absolulty no warrenty.
 [https://hub.docker.com/r/webandco/ubuntu-supervisor-appserver-typo3/](https://hub.docker.com/r/webandco/ubuntu-supervisor-appserver-typo3/)
 
 ##What's next
-We will improve the image to provide a very solid out of the box solution for typo3 develoment. For that, we need your help and feedback.
+We will improve the image to provide a very solid out of the box solution for TYPO3 develoment. For that, we need your help and feedback.
 
 **Pull Requests are welcome!**
 
