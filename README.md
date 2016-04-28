@@ -56,4 +56,9 @@ This docker image is not for production and comes with absolulty no warrenty.
 ##What's next
 We will improve the image to provide a very solid out of the box solution for typo3 develoment. For that, we need your help and feedback.
 
-# Pull Requests are welcome!
+**Pull Requests are welcome!**
+
+## Thanks for inspiration
+- [Marcin Ryzycki](https://github.com/ryzy)
+
+
