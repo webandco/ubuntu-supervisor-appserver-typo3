@@ -8,6 +8,7 @@ Configure the docker-compose.yaml to your needs und you are ready to go.
 
 ##ENV varibales
 ```php
+APPSERVER_PHP_MEMORY_LIMIT=512M
 APPSERVER_OVERRIDE_APPSERVER_CONF=TRUE // override appserver default conf to run on port 80 (default port 8090)
 APPSERVER_OVERRIDE_VHOST_CONF=TRUE // overide vhost setup and provide a preconfigured vhost for typo3
 APPSERVER_OVERRIDE_REDIS_CONF=FALSE // enable redis if needed
@@ -41,6 +42,7 @@ webco_typo3:
   volumes:
     - ~/development/git/xxx001:/var/www
   environment:
+    - APPSERVER_PHP_MEMORY_LIMIT=512M
     - APPSERVER_OVERRIDE_APPSERVER_CONF=TRUE
     - APPSERVER_OVERRIDE_VHOST_CONF=TRUE
     - APPSERVER_OVERRIDE_REDIS_CONF=FALSE

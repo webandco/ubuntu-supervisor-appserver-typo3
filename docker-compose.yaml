@@ -8,4 +8,5 @@ webco_flow:
     - 9443:9443
 
   environment:
+    - APPSERVER_PHP_MEMORY_LIMIT=512M
     - APPSERVER_VHOST_DOMAIN=xxx.local
