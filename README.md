@@ -11,6 +11,7 @@ Configure the docker-compose.yaml to your needs und you are ready to go.
 APPSERVER_PHP_MEMORY_LIMIT=512M
 APPSERVER_OVERRIDE_APPSERVER_CONF=TRUE // override appserver default conf to run on port 80 (default port 8090)
 APPSERVER_OVERRIDE_VHOST_CONF=TRUE // overide vhost setup and provide a preconfigured vhost for typo3
+APPSERVER_VHOST_WEB_ROOT=web //override web root dir
 APPSERVER_OVERRIDE_REDIS_CONF=FALSE // enable redis if needed
 APPSERVER_VHOST_DOMAIN=xxx.whatever // set a custom domain - docker.vm is always available
 ```
